@@ -5,9 +5,9 @@ spring:
   application:
     name: inube-authentication-service
   datasource:
-    url: jdbc:postgresql://localhost:5437/inube
-    username: inube
-    password: inube
+    url: jdbc:postgresql://localhost:5437/aba
+    username: aba
+    password: aba
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate.ddl-auto: none
@@ -30,4 +30,5 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 5
     leaseExpirationDurationInSeconds: 15
+
     preferIpAddress: true
